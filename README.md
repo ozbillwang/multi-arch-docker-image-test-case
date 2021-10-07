@@ -1,0 +1,1 @@
+# multi-arch-docker-image-test-case
