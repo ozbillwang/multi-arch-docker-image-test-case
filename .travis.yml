@@ -1,5 +1,7 @@
 arch: arm64
 
+sudo: required
+
 language: bash
 
 services:
