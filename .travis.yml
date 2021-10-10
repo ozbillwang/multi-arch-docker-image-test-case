@@ -8,4 +8,4 @@ services:
   - docker
 
 script:
-  - docker run -ti --rm --entrypoint="apk" alpine/git add bash
+  - docker run --rm --entrypoint="apk" alpine/git add bash
