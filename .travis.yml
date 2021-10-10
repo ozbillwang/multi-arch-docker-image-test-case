@@ -8,5 +8,5 @@ services:
   - docker
 
 script:
-  - docker run --rm --entrypoint=cat alpine/git /etc/os-release
-  - docker run --rm --entrypoint="apk" alpine/git add bash
+  - docker run --rm --entrypoint=cat alpine/git:v2.30.2 /etc/os-release
+  - docker run --rm --entrypoint=apk alpine/git:v2.30.2 add bash
